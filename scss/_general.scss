@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  overflow-x: hidden;
+  background: #F2F2F2;
+}
+
+main{
+  flex-grow: 1;
+}
+
+img{
+  vertical-align: middle;
+}
